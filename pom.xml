@@ -3,7 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.lesson</groupId>
 	<artifactId>order</artifactId>
-	<packaging>war</packaging>
+	<!--<packaging>war</packaging>-->
+	<packaging>jar</packaging>
 	<version>1.0</version>
 	<name>order</name>
     <properties>
@@ -91,7 +92,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>order</finalName>
+		<!--<finalName>order</finalName>-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
